@@ -1,0 +1,13 @@
+void greet_show_options();
+float book_transport(int, int);
+int get_transport_mode();
+int get_transport_seats();
+void display_summary(int, int, float);
+char quit_possibility();
+char stop_app_choice();
+float get_discount(float);
+float get_tax(float);
+int get_discount_type(float);
+void show_user_bill(float, int, float, float, float, float);
+void display_current_stock();
+void show_summary_for_each_customer(int, int[], int[][7], float[][7], float[], float[], float[], float[]);
